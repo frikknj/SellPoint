@@ -1,0 +1,12 @@
+{
+    "name": "sellpoint-server",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "start": "pipenv run python manage.py runserver",
+        "setup": "pipenv install",
+        "migrate": "pipenv run python manage.py makemigrations && pipenv run python manage.py migrate --run-syncdb",
+        "superuser": "pipenv run python manage.py createsuperuser",
+        "test": "pipenv run python manage.py test"
+    }
+}

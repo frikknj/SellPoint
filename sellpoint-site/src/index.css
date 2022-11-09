@@ -1,0 +1,272 @@
+/*.inner {
+  width: 600px;
+  margin: auto;
+  background: #ffffff;
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+*/
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 50vh;
+  display: flex;
+  font-weight: 400;
+  font-family: sans-serif;
+
+  background: linear-gradient(to right, #7fac73, #9bf0ac, #7fac73);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html,
+.App,
+#root {
+  width: 100%;
+  height: 90%;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.post {
+  background-color: white;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.advertisement {
+  background-color: rgb(179, 204, 170);
+  border-style: solid;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.advertisement-overview {
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  text-align: center;
+  padding: 40px 55px 40px 55px;
+  border-radius: 35px;
+  transition: all 0.3s;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.8px;
+}
+
+.location {
+  color: lightgray;
+}
+
+#hjem {
+  font-size: x-large;
+  color: black;
+  font-weight: 500;
+}
+
+#navbar {
+  font-size: large;
+  color: grey;
+}
+
+#navbar:hover {
+  color: black;
+}
+
+#navbar:focus {
+  color: black;
+  font-weight: 500;
+}
+
+#NavTop {
+  border-style: solid;
+  border-color: white;
+  border-width: 1.8px;
+  border-bottom-color: black;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 10vh;
+  border-color: #31ff16;
+  box-shadow: none;
+  border-width: 3px;
+}
+
+.outer h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 40px;
+}
+
+.Login-site {
+  width: 500px;
+  margin: auto;
+  background: #ffffff;
+  padding: 40px 55px 45px 55px;
+  border-radius: 35px;
+  border-style: solid;
+  border-width: 1.8px;
+  transition: all 0.3s;
+}
+
+.MyProfile {
+  width: 500px;
+  margin: auto;
+  background: #ffffff;
+  padding: 40px 55px 45px 55px;
+  border-radius: 35px;
+  transition: all 0.3s;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.8px;
+}
+
+.RegisterAdvert,
+.UpdateAdvert {
+  width: 600px;
+  margin: auto;
+  background: #ffffff;
+  padding: 40px 55px 45px 55px;
+  border-radius: 35px;
+  transition: all 0.3s;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.8px;
+}
+
+.ChooseUserType {
+  width: 500px;
+  margin: auto;
+  background: #ffffff;
+  padding: 40px 55px 45px 55px;
+  border-radius: 35px;
+  transition: all 0.3s;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.8px;
+}
+
+.Register {
+  width: 500px;
+  margin: auto;
+  background: #ffffff;
+  padding: 40px 55px 45px 55px;
+  border-radius: 35px;
+  transition: all 0.3s;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.8px;
+}
+
+.MyAdvertsOverview {
+  width: 750px;
+  margin: auto;
+  background: #ffffff;
+  padding: 40px 55px 40px 55px;
+  border-radius: 35px;
+  transition: all 0.3s;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.8px;
+}
+
+.Advert {
+  width: 50%;
+  margin: auto;
+  background: #ffffff;
+  padding: 40px 55px 40px 55px;
+  border-radius: 35px;
+  transition: all 0.3s;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.8px;
+}
+
+.myadverts {
+  width: 700px;
+  margin: auto;
+  background: #ffffff;
+  padding: 40px 55px 40px 55px;
+  border-radius: 35px;
+  transition: all 0.3s;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.8px;
+}
+
+.advertimage {
+  max-width: 100%;
+  padding-bottom: 10px;
+  display: block;
+  margin: auto;
+}
+
+#luft {
+  padding-left: 15px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+/* Advert css */
+
+.advert-description {
+  margin-top: 10px;
+}
+
+.row-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.advert-box {
+  width: 60%;
+  margin-right: 20px;
+}
+
+.advertisement-box {
+  width: 35%;
+}
+
+.company-name {
+  font-weight: bold;
+}
+
+.advertisement-description {
+  display: block;
+  font-style: italic;
+  margin-top: 7px;
+}
+
+.padding-bottom-class {
+  padding-bottom: 20px;
+}
